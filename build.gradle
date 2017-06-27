@@ -1,23 +1,23 @@
 task usage doLast { print """
 ==================================================================================
 
-gradle compileJava
+./gradlew compileJava
   Compile Java source code displaying warnings and error to the terminal console. Does not
   cross compile Java to JavaScript.
 
-gradle clean compileGWT
+./gradlew clean compileGWT
     Executes the 'javaCompile' task as a syntax check and then cross compiles Java source
     code to JavaScript per the gwt.xml file.
 
-gradle clean jettyRun
+./gradlew clean jettyRun
   Cross compiles the client side Java into JavaScript; launches Jetty.  Use any browser to 
   connect to:
                http://localhost:${jettyRun.httpPort}/${project.name}/${gwtStartPage}
 
-gradle clean war
+./gradlew clean war
   Build a WAR for deployment.
 
-gradle clean
+./gradlew clean
   Delete temporary files in '${buildDir.name}' and '${new File(gwtBuildDir).name}' 
 
 

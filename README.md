@@ -29,3 +29,9 @@ The target browser(s) can be set using the ```gradle.properties``` file by setti
 user.agent=safari,gecko1_8
 
 ```
+
+Gradle wrapper has been provided which uses Gradle v3.5. Use the Gradle task ```./gradlew usage``` to build and run the Showcase.
+
+
+If you choose to install and use Gradle, note that this build uses the Gradle ```jetty``` plugin which is deprecated in Gradle 4.0.  Use Gradle v3.5 until the build is rewritten to use the new ```gretty``` plugin.
+
