@@ -5,7 +5,7 @@
 
 You need to download two Jar files, ```smartgwt-skins.jar``` and ```smartgwt.jar``` into the ```lib/SmartGWT-X.X-LPGL``` directory of this project, where ```X.X``` is the version number of the release, *e.g.* 6.1 as shown below.
 
-![Lib Layout](Lib Directory Layout.png)
+![Library Layout](Layout.png)
 
 These LGPL licensed SmartGWT library files can be downloaded from the **Isomophics.com** website at :
 
